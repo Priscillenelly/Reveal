@@ -1866,3 +1866,68 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Style pour le corps principal */
+.Now {
+  width: 100%;
+  min-height: 100vh;
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Style pour les sections à l'intérieur de <main> */
+.Now .section {
+  width: 90%;
+  max-width: 1200px;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Conteneurs généraux */
+.now .conte {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Titres de section */
+.now .section-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.now .section-title h2 {
+  font-size: 28px;
+  color: #222;
+}
+
+.now .section-title p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Mise en page des éléments */
+.now .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Style pour les colonnes */
+.now .col-lg-4, .main .col-md-6 {
+  flex: 1 1 300px;
+  max-width: 32%;
+}
+
+/* Responsive pour écrans plus petits */
+@media (max-width: 768px) {
+  .Now .col-lg-4, .main .col-md-6 {
+    max-width: 100%;
+  }
+}
